@@ -1,0 +1,4 @@
+lupa
+pytest
+redis
+docker

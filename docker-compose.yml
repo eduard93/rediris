@@ -1,0 +1,11 @@
+version: "2.2"
+services:
+  rediris:
+    hostname: rediris
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 52773:52773
+      - 1972:1972
+      - 6379:6379
