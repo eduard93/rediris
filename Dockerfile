@@ -1,4 +1,5 @@
-FROM intersystems/iris:2021.1.1.324.0
+# FROM intersystems/iris:2021.1.1.324.0
+FROM intersystemsdc/iris-community
 
 ENV ISC_CPF_MERGE_FILE=/tmp/merge.cpf
 ENV PIP_NO_CACHE_DIR=1
